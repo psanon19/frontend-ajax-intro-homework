@@ -7,3 +7,12 @@ In the first example called [JavaScript Demo: JSON.parse()] replace the json var
 var json = '{"result":true, "count":42, "teacher1": "Kenn", "teacher2": "Kevin", "teacher3": "John", "teacher4":"Bob"}';
 ```
 Below, write the necessary console.logs to print "Kenn" and "Kevin" from obj.
+
+
+var json = '{"result":true, "count":42, "teacher1": "Kenn", "teacher2": "Kevin", "teacher3": "John", "teacher4":"Bob"}';
+obj = JSON.parse(json);
+
+console.log(obj.teacher1);
+
+
+console.log(obj.teacher2);
